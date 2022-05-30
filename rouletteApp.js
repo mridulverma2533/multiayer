@@ -10,7 +10,7 @@ const Game = require('./classes/game');
 const app = express();
 
 // Settings
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 3030);
 //app.set('views', path.join(__dirname, '/views'));
 
 // Middlewares
